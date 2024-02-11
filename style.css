@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #fffefe;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    width: 100%;
+    height: 100px;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left h3 {
+    border: 2px solid black;
+    padding: 2px 6px;
+    border-radius: 18px;
+    font-size: medium;
+}
+
+#left i {
+    border: 2px solid black;
+    padding: 2px 6px;
+    border-radius: 18px;
+    font-size: medium;
+
+}
+
+#right {
+    padding: 0px 0px;
+}
+
+#btn1 {
+    border: 2px solid black;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 18px;
+    font-size: medium;
+}
+
+#btn2 {
+    border: 2px solid black;
+    padding: 2px 6px;
+    border-radius: 18px;
+    font-size: medium;
+    background-color: rgb(255, 123, 35);
+}
+
+#mid {
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+#container h1 {
+    text-transform: uppercase;
+    font-size: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+img {
+    height: 402px;
+    width: 362px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-position: top;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-25deg);
+    border-radius: 19px;
+
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+    border-radius: 19px;
+
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+    border-radius: 19px;
+
+}
+
+#img4 {
+    transform: translate(-50%, -50%) rotate(-0.5deg);
+    border-radius: 19px;
+}
+#btm{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0% 2%;
+}
+#btm-left{
+    text-align: left;
+    margin-top: 36%;
+}
+#btm-rgt{
+    height: 2%;
+    width: 8%;
+}
